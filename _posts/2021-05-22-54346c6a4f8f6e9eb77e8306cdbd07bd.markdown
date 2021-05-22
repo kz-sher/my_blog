@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "How to add simple macros on your Razer mouse without Razer Synapse 3 for MacOS"
+date:   2021-05-22 23:45:00 +0800
+categories: jekyll update
+---
+
+> Disclamer: I have only tried with my current set of devices, so it might not work for you if you have different items.
+
+# Background
+
+I would say I am a very new user for Razer products. Recently, I got a chance to purchase one of them at a very low price from my brother (100% authentic!). The one I got right now is a wired mouse `Razer Mamba Elite` which looks pretty cool to me. My brother had it because he was just lucky to get this gadget from a lucky draw event. 
+
+After working with it for a few months, it made me feel like throwing my current Logitech wireless mouse (free gift given along with my very first laptop purchase). Its clicking sound, color lighting and design are just too gooddddddddd. Okay...I know i know. Lemme at least talk about the reason before jumping into the topic.
+
+Due to the current COVID19 situation, I was asked by my company to work from home. Normally, when I am working from office, I will usually use the Touch ID feature whenever I try to unlock my `Macbook Pro 2019`. However, when I am at home, I will put my `Macbook Pro 2019` (closed lid) aside as there is a holder for it and use the monitor instead. The problem then came when having me typing long home password and making me find it annoying, especially when I typed it wrong. 
+
+In my mind, I was thinking if I should spend some money to buy a macro keyboard and do some configuration just for this. After doing some researches online, I saw `Razer Synapse 3` which is a customisation software for Razer products. Unfortunately, it does not support most of the latest Razer devices on MacOS (only Windows). Then, another round of online research went on. From a lot of forums, they were mentioning about [razer-macos](https://github.com/1kc/razer-macos) but its current release (v0.4.2) does not support macros as well. 
+
+Until I saw this [thread](https://www.reddit.com/r/razer/comments/99smhf/synapse_3_for_mac_date/e5zqgw9?utm_source=share&utm_medium=web2x&context=3) on Reddit, I started my experiment on VMWare first but it failed to detect my mouse. Then I tried on VirtualBox, It worked though but make sure you select your mouse like the figure shown below.
+
+![image not found](/assets/2021-05-22-54346c6a4f8f6e9eb77e8306cdbd07bd/01.png)
+
+Then, you should be able to see your device on `Razer Synapse 3 (on VirtualBox Windows 10)`. Just wanna show that it works for keystrokes even after quiting from VirtualBox:
+
+> Tmux Show Window Tree: Ctrl + B + W 
+
+![image not found](/assets/2021-05-22-54346c6a4f8f6e9eb77e8306cdbd07bd/02.jpg)
+
+<video width="100%" height="600" controls="controls">
+  <source src="/assets/2021-05-22-54346c6a4f8f6e9eb77e8306cdbd07bd/03.mp4" type="video/mp4">
+</video>
+
+<br/>
+
+# Other Potential Solution
+
+I found another potential way to conquer it from this [thread](https://www.reddit.com/r/razer/comments/moytn2/just_found_synapse_3_alternative_on_macos_it_is/) but I am too lazy to give it a shot, so perhaps you can try it if you have that interest. Anyways, thank you! Hope this way can solve you guys' problems too.

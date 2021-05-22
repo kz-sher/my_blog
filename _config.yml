@@ -22,9 +22,10 @@ title: Kz Sherwin - Blog
 email: kzsherdev@gmail.com
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.kzsher.com"
 twitter_username: siizoo333
 github_username: kz-sher
+linkedin_username: kzsher
 
 # Build settings
 theme: minima
