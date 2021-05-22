@@ -18,13 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Kz Sherwin - Blog
+title: Kz Sherwin's Blog
 email: kzsherdev@gmail.com
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.kzsher.com"
 github_username: kz-sher
 linkedin_username: kzsher
+permalink: /posts/:year-:month-:day/:title
 
 # Build settings
 theme: minima
