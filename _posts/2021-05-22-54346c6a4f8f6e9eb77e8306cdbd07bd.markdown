@@ -2,8 +2,7 @@
 layout: post
 title:  "How to add simple macros on your Razer mouse without Razer Synapse 3 for MacOS"
 date:   2021-05-22 23:45:00 +0800
-categories: jekyll update
-comments: true
+categories: razer
 ---
 
 > Disclamer: I have only tried with my current set of devices, so it might not work for you if you have different items.
