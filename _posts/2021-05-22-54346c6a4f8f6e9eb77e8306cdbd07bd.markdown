@@ -27,7 +27,7 @@ Then, you should be able to see your device on `Razer Synapse 3 (on VirtualBox W
 
 ![image not found](/assets/2021-05-22-54346c6a4f8f6e9eb77e8306cdbd07bd/02.jpg)
 
-<video width="100%" height="600" controls="controls">
+<video width="100%" height="600" controls>
   <source src="/assets/2021-05-22-54346c6a4f8f6e9eb77e8306cdbd07bd/03.mp4" type="video/mp4">
 </video>
 
