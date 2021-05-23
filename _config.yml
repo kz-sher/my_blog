@@ -5,11 +5,13 @@ author:
 description: "" # this means to ignore newlines until "show_excerpts:"
 show_excerpts: false # set to true to show excerpts on the homepage
 permalink: /posts/:year-:month-:day/:title
-sass:
-  style: compressed
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.kzsher.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+# Build settings
+theme: minima
 minima:
   skin: dark
   date_format: "%b %-d, %Y"
@@ -46,15 +48,12 @@ minima:
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+remote_theme: jekyll/minima
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
-
-# Build settings
-theme: minima
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
