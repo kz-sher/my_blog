@@ -50,3 +50,15 @@
     height: 32px;
     border-radius: 25%;
 }
+
+.post-meta-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .post-meta {
+        border-top: 1px solid red;
+        font-size: 18px;
+        color: white;
+        margin-top: 5px;
+    }
+}
