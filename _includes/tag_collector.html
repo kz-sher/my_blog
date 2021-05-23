@@ -1,0 +1,18 @@
+{% assign raw_tags = "" %}
+{% for post in site.posts %}
+  {% assign ttags = post.tags | join:'|' | append:'|' %}
+  {% assign raw_tags = raw_tags | append:ttags %}
+{% endfor %}
+{% assign raw_tags = raw_tags | split:'|' | sort %}
+
+{% assign site.tags = "" %}
+{% for tag in raw_tags %}
+  {% if tag != "" %}
+    {% if tags == "" %}
+      {% assign tags = tag | split:'|' %}
+    {% endif %}
+    {% unless tags contains tag %}
+      {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
