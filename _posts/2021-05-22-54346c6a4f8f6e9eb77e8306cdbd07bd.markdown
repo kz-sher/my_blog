@@ -7,7 +7,7 @@ categories: razer
 
 > Disclamer: I have only tried with my current set of devices, so it might not work for you if you have different items.
 
-# Background
+## Background
 
 I would say I am a very new user for Razer products. Recently, I got a chance to purchase one of them at a very low price from my brother (100% authentic!). The one I got right now is a wired mouse `Razer Mamba Elite` which looks pretty cool to me. My brother had it because he was just lucky to get this gadget from a lucky draw event. 
 
@@ -30,8 +30,6 @@ Then, you should be able to see your device on `Razer Synapse 3 (on VirtualBox W
 <video width="100%" height="600" controls="controls">
   <source src="/assets/2021-05-22-54346c6a4f8f6e9eb77e8306cdbd07bd/03.mp4" type="video/mp4">
 </video>
-
-<br/>
 
 # Other Potential Solution
 
