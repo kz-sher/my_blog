@@ -106,32 +106,42 @@
     justify-content: flex-end;
 }
 
-.copy-code-button {
+.copy-code-button { 
+    position: absolute;
     display: grid;
     grid-auto-flow: column;
     align-items: center;
     grid-column-gap: 4px;
-    border: none;
     cursor: pointer;
     font-size: 1rem;
-    padding: 4px 8px;
+    padding: 10px 10px;
+    border: 1px solid #565656;
+    border-radius: 3px;
+    background-color: #303030;
 
-    &::before {
-        content: "Copy";
+    &:hover {
+        border-color: rgb(79, 219, 242);
+        .clipboard-icon {
+            fill: rgb(79, 219, 242);
+        }
     }
 
-    &::after {
-        content: "📋";
-        display: block;
+    .clipboard-icon {
+        fill: #777;
+    }
+
+    .check-icon {
+        display: none;
+        fill: #65e172;
     }
 
     &.copied {
-        &::before {
-        content: "Copied!";
+        border-color: #65e172;
+        .clipboard-icon {
+            display: none;
         }
-
-        &::after {
-        content: "✔️";
+        .check-icon {
+            display: block;
         }
     }
 }
